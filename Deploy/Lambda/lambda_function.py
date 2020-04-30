@@ -20,24 +20,15 @@ def _npy_dumps(data):
     return buffer.getvalue()
 
 def lambda_handler(event, context):
-    s3 = boto3.resource('s3', region_name='us-east-2')
-    bucket = s3.Bucket('sagemaker-lego')
-    object = bucket.Object('0003.png')
+    s3 = boto3.resource('s3', region_name='<Region Name>')
+    bucket = s3.Bucket('<Bucket Name>')
+    object = bucket.Object('<File Name>')
     tmp = tempfile.NamedTemporaryFile()
     
     with open(tmp.name, 'wb') as f:
         object.download_fileobj(f)
         payload = img_to_byte(tmp.name)
         send(_npy_dumps(payload))
-    
-    # s3 = boto3.client('s3')
-    # s3_img = s3.get_object(Bucket='sagemaker-lego', Key='0003.png')
-    # print(f's3_img: {s3_img}')
-    # s3_img_decode = s3_img['Body'].read()#.decode('utf-8')
-    # print(f's3_img_decode: {s3_img_decode}')
-    # payload = json.dumps({'url':'https://cdn.britannica.com/30/136130-050-3370E37A/Leopard.jpg'})
-    # send(payload)
-
 
 
 def send(payload):
