@@ -1,5 +1,7 @@
 # Deploy-Lego-Predictor-on-SageMaker-and-Test-with-Locust
 
+Sicong Zhao, Hannah Yan, Alan Zhou
+
 ### 1.Project Goals
 1. Deploy a lego brick classifier model (feed forward neural network) using AWS SageMaker.
 2. Create a RESTful API for inference service.
