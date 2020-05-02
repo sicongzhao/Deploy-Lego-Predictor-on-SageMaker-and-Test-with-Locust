@@ -8,7 +8,7 @@ Sicong Zhao, Hannah Yan, Alan Zhou
 3. Scale the service and do load test with locust.
 
 ### 2.Project Introduction
-https://www.youtube.com/watch?v=e7iCsD8p74M
+[![YouTube Video Cover](https://img.youtube.com/vi/e7iCsD8p74M/0.jpg)](https://www.youtube.com/watch?v=e7iCsD8p74M)
 
 ### 3.Reference
 1. [SageMaker Example Code by **AWS**](https://github.com/awslabs/amazon-sagemaker-examples/blob/e463a7b158651a0a1888082a4673695a9acada73/sagemaker-python-sdk/chainer_sentiment_analysis/src/sentiment_analysis.py)
