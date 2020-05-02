@@ -2,7 +2,9 @@
 
 Hannah Yan, Sicong Zhao, Zhuangdie Zhou
 
-Goal: LEGO classification on AWS Sagemaker with load test
+Goal: 
+
+LEGO classification on AWS Sagemaker with load test
 
 Roadmap:
 
