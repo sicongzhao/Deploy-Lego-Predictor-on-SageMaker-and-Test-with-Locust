@@ -17,3 +17,4 @@ Sicong Zhao, Hannah Yan, Alan Zhou
 4. [How to create an API using AWS Lambda and Gateway by **AWS**](https://docs.aws.amazon.com/apigateway/latest/developerguide/api-gateway-create-api-as-simple-proxy-for-lambda.html)
 5. [How to handle 502 Error in API Gateway by **AWS**](https://aws.amazon.com/premiumsupport/knowledge-center/malformed-502-api-gateway/)
 6. [Load test using locust in AWS Cloud9 by **Pragmatic AI Labs**](https://www.youtube.com/watch?v=bUEYe6AqlXE)
+7. [SageMaker Docs - PyTorchModel](https://sagemaker.readthedocs.io/en/stable/frameworks/pytorch/sagemaker.pytorch.html?highlight=PyTorchModel#sagemaker.pytorch.model.PyTorchModel)
