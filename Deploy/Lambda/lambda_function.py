@@ -34,7 +34,7 @@ def lambda_handler(event, context):
 def send(payload):
     print('start send')
     endpoint_name = "pytorch-inference-2020-04-30-04-19-50-410" # Modify this to your endpoint
-    runtime = runtime= boto3.client('runtime.sagemaker')
+    runtime = boto3.client('runtime.sagemaker')
     response = runtime.invoke_endpoint(EndpointName=endpoint_name, ContentType='application/x-npy', Body=payload)
     print(response['Body'].read())
     print('end send')
